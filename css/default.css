@@ -1,0 +1,42 @@
+@import url("./default.css");
+@font-face {
+    font-family:                arcade;
+    src:                        url('../font/arcadeFont.ttf');
+}
+body {
+    font-family:                arcade, sans-serif;
+    text-align:                 center;
+    background:                 black;
+}
+
+body header {
+    font-size:                  170%;
+    color:                      grey;
+
+}
+
+body section {
+    background:                 grey;
+    text-align:                 center;
+    width:                      810px;
+    height:                     610px;
+    margin:                     auto;
+    padding:                    0 50px 80px 50px;
+    border-radius:              1%;
+}
+body section p {
+    display:                    inline;
+    font-size:                  20px;
+}
+body section canvas {
+    width:                      800px;
+    height:                     600px;
+    margin:                     auto;
+    border:                     5px solid #000;
+}
+body section article p{
+    display:                    inline;
+}
+footer p{
+    color:                      grey;
+}
